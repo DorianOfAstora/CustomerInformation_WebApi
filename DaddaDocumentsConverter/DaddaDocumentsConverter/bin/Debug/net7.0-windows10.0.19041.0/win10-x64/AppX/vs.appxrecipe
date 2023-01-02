@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-01T23:29:02.677</Modified>
+      <Modified>2023-01-02T00:33:38.315</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-01T23:29:02.444</Modified>
+      <Modified>2023-01-02T00:33:38.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DaddaDocumentsConverter.runtimeconfig.json">
       <PackagePath>DaddaDocumentsConverter.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DaddaDocumentsConverter.dll">
       <PackagePath>DaddaDocumentsConverter.dll</PackagePath>
-      <Modified>2023-01-01T23:29:01.847</Modified>
+      <Modified>2023-01-02T00:33:37.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DaddaDocumentsConverter.exe</PackagePath>
-      <Modified>2023-01-01T23:29:01.852</Modified>
+      <Modified>2023-01-02T00:33:37.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pisci\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.1\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\DaddaDocumentsConverter.deps.json">
       <PackagePath>DaddaDocumentsConverter.deps.json</PackagePath>
-      <Modified>2023-01-01T23:29:02.602</Modified>
+      <Modified>2023-01-02T00:33:38.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

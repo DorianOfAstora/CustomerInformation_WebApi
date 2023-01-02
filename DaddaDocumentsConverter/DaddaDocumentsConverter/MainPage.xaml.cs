@@ -2,23 +2,48 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+    int count = 0;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    public MainPage()
+    {
+        InitializeComponent();
+    }
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
+    private void OnFileSelectorClicked(object sender, EventArgs e)
+    {
+        PickOptions pickType = new PickOptions();
+        var pickedFiles = PickAndShow(pickType);
+        if (pickedFiles != null)
+        {
+            return;
+        }
 
-		//if (count == 1)
-		//	CounterBtn.Text = $"Clicked {count} time";
-		//else
-		//	CounterBtn.Text = $"Clicked {count} times";
+    }
+    public async Task<IEnumerable<FileResult>> PickAndShow(PickOptions options)
+    {
+        try
+        {
+            var result = await FilePicker.Default.PickMultipleAsync(options);
+            if (result != null)
+            {
+                SelectedFiles.Text = string.Empty;
+                foreach (var file in result)
+                {
+                    if (SelectedFiles.Text == string.Empty)
+                        SelectedFiles.Text += file.FileName;
+                    else
+                        SelectedFiles.Text += " - " + file.FileName;
 
-		//SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+                }
+            }
+            return result;
+        }
+        catch (Exception ex)
+        {
+            // The user canceled or something went wrong
+        }
+
+        return null;
+    }
 }
 

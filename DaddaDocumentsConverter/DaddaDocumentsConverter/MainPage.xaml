@@ -9,8 +9,9 @@
             Padding="30,0"
             VerticalOptions="Center">
             <Label Text="Nome File:" />
-            <Entry Placeholder="File selezionato..." IsEnabled="False" />
-            <Button Text="Seleziona File" />
+            <Entry Text="File selezionato..." IsEnabled="False" x:Name="SelectedFiles"/>
+            <Button Text="Seleziona File" 
+                    Clicked="OnFileSelectorClicked"/>
         </VerticalStackLayout>
 
     </ScrollView>

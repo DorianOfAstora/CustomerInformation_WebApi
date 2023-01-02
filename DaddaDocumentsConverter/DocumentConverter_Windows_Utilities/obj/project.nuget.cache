@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dVHvEsSI6EZt5j698blelrxphn5cPasKFpwKWjfWw9nrmm/OJWk5S1/xltpv/626EAJgNQqpej1NXAh/Zl0LBw==",
+  "dgSpecHash": "Pv6EnsOh/RsS1DMTxwg+iAQaYTkAngg/NXiLDTVmL2qFk9uzr6dqOJQeYUncThoSwvPcw1OK3ZVJSqrZg9a/Mg==",
   "success": true,
   "projectFilePath": "C:\\Users\\pisci\\Documents\\DaddaProjects\\DaddaDocumentsConverter\\DocumentConverter_Windows_Utilities\\DocumentConverter_Windows_Utilities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pisci\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\pisci\\.nuget\\packages\\xamarin.essentials\\1.7.4\\xamarin.essentials.1.7.4.nupkg.sha512"
+  ],
   "logs": []
 }
