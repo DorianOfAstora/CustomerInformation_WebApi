@@ -1,0 +1,12 @@
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\bin\Debug\net7.0\DocumentConverter_MacOs_Utilities.deps.json
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\bin\Debug\net7.0\DocumentConverter_MacOs_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\bin\Debug\net7.0\DocumentConverter_MacOs_Utilities.pdb
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.csproj.AssemblyReference.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.AssemblyInfoInputs.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.AssemblyInfo.cs
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.csproj.CoreCompileInputs.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\refint\DocumentConverter_MacOs_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\DocumentConverter_MacOs_Utilities.pdb
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_MacOs_Utilities\obj\Debug\net7.0\ref\DocumentConverter_MacOs_Utilities.dll

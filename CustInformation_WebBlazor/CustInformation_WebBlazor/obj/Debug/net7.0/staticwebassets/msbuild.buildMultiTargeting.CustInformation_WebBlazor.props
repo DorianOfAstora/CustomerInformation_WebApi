@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CustInformation_WebBlazor.props" />
+</Project>

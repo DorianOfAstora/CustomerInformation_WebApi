@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UPD9YGLZjEH4VU+jyvpQXoHGPQZxM7w80mNha4bDeJq5XJEZPj1x7KzKnZ/w45TqM38TcTC1TfckgM7rTRTF7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pisci\\Documents\\DaddaProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pisci\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

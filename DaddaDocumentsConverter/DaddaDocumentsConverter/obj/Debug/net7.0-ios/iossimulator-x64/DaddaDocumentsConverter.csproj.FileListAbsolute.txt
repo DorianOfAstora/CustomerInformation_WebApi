@@ -267,3 +267,4 @@ C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsCon
 C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-ios\iossimulator-x64\DaddaDocumentsConverter.pdb
 C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-ios\iossimulator-x64\DaddaDocumentsConverter.genruntimeconfig.cache
 C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-ios\iossimulator-x64\ref\DaddaDocumentsConverter.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DaddaDocumentsConverter\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

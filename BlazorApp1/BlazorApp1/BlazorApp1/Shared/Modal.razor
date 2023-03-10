@@ -1,0 +1,79 @@
+﻿@using BlazorApp1.Data;
+<div class="modal @ModalClass" tabindex="-1" role="dialog" style="display:@ModalDisplay">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <tr>
+                        <th><div style="margin-left:auto">Item</div></th>
+                        <th><div style="margin-left:auto">Data</div></th>
+                        <th><div style="margin-left:auto">Customer</div></th>
+                    </tr>
+                    <tbody>
+                        @foreach (var customer in custResViewModel)
+                        {
+                            <tr>
+                                <td>@_item</td>
+                                <td>
+                                    @customer.date
+                                </td>
+                                <td>
+                                    @string.Join(", ", customer.cust)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" @onclick="() => Close()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (ShowBackdrop)
+{
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+@code {
+
+    private List<CustomerResultViewModel> custResViewModel = new List<CustomerResultViewModel>();
+    private string _item;
+    public Guid Guid = Guid.NewGuid();
+    public string ModalDisplay = "none;";
+    public string ModalClass = "";
+    public bool ShowBackdrop = false;
+
+    public void Open(string item, List<CustomerResultViewModel> details)
+    {
+        ModalDisplay = "block;";
+        ModalClass = "Show";
+        ShowBackdrop = true;
+        callbackModel(item, details);
+        StateHasChanged();
+    }
+
+    public void Close()
+    {
+        ModalDisplay = "none";
+        ModalClass = "";
+        ShowBackdrop = false;
+        StateHasChanged();
+    }
+
+    private void callbackModel(string item, List<CustomerResultViewModel> details)
+    {
+        _item = item;
+        custResViewModel = details;
+    }
+}

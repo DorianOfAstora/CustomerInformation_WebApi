@@ -1,0 +1,44 @@
+﻿@model List<ResultViewModel>
+
+<div class="row">
+    <table class="arrowes-table table-striped">
+        <thead>
+            <tr>
+                <th>Item Number</th>
+                <th>Unique Customers</th>
+                <th>Customer List</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var items in Model)
+            {
+                <tr>
+                    <td>
+                        <ul class="list-unstyled">
+                           @items.ItemNumber
+                        </ul>
+
+                    </td>
+                    <td>
+                        <ul class="list-unstyled">
+                            @items.UniqueCustomers
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="list-unstyled">
+                            @foreach (var item in items.CustomerList)
+                            {
+
+                                <td>                
+                                    @item
+                                </td>
+
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

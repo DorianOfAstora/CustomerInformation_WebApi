@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<div style="align-items: center">
+    @Html.Partial("SearchPage", new SearchViewModel())
+</div>
+
+<div style="align-items: center" hidden="hidden">
+    @Html.Partial("_ResultPage", new List<ResultViewModel>())
+</div>
+
+
+@section Scripts{
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script>
+                $('#searchFRM').submit(function () {
+                var search = {customer: ""+$('#customer').val()+"",item: $("#item").val() }
+                $.ajax({
+                     type: "POST",
+                     url: "@Url.ActionLink("Search","Home")",
+                     data: $('#customer').val(),
+                     contentType: "application/json; charset=utf-8",
+                     dataType: "json"
+                })
+            });
+        </script>
+}

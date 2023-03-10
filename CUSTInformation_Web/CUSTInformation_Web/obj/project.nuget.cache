@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KrZAdkYidYsJ0loO/dx2fjG9FjjE7qYaoDIJ7lzGaqhPqO5zEyAQOVhYi37K5diQAWTpw/7np6kodXA/S1LDvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pisci\\Documents\\DaddaProjects\\CUSTInformation_Web\\CUSTInformation_Web\\CUSTInformation_Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pisci\\.nuget\\packages\\jquery\\3.6.3\\jquery.3.6.3.nupkg.sha512",
+    "C:\\Users\\pisci\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

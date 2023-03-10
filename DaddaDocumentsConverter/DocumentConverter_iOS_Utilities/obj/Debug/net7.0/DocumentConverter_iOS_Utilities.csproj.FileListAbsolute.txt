@@ -1,0 +1,12 @@
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\bin\Debug\net7.0\DocumentConverter_iOS_Utilities.deps.json
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\bin\Debug\net7.0\DocumentConverter_iOS_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\bin\Debug\net7.0\DocumentConverter_iOS_Utilities.pdb
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.csproj.AssemblyReference.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.AssemblyInfoInputs.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.AssemblyInfo.cs
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.csproj.CoreCompileInputs.cache
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\refint\DocumentConverter_iOS_Utilities.dll
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\DocumentConverter_iOS_Utilities.pdb
+C:\Users\pisci\Documents\DaddaProjects\DaddaDocumentsConverter\DocumentConverter_iOS_Utilities\obj\Debug\net7.0\ref\DocumentConverter_iOS_Utilities.dll

@@ -1,0 +1,50 @@
+﻿@page "/searchmonthpage"
+@using BlazorApp1.Data
+@inject SearchServices service;
+
+<div style="top:10px">
+    @if (custResViewModel.Count == 0 || custResViewModel == null)
+    {
+
+    }
+    else
+    {
+            <table class="table">
+                <tr>
+                    <th>item</th>
+                    <th>unique customer</th>
+                    <th>Dettaglio</th>
+                </tr>
+                <tbody>
+                @foreach (var customer in custResViewModel)
+                {
+                            <tr>
+                                <td>@customer.item</td>
+                                <td>
+                            @customer.detail.FirstOrDefault().total
+                                </td>
+                                <td>
+                            @if (@customer.detail.Count > 0)
+                            {
+                                            <BlazorApp1.Shared.Modal @ref="modal"></BlazorApp1.Shared.Modal>
+                                            <button @onclick="() => modal.Open(customer.item, customer.detail)">Open Modal</button>
+                            }
+                                </td>
+                            </tr>
+                }
+                </tbody>
+            </table>
+    }
+</div>
+
+
+@code {
+    private List<CustomerDetailViewModel> custResViewModel = new List<CustomerDetailViewModel>();
+    private BlazorApp1.Shared.Modal modal { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        custResViewModel = await service.SearchMonth();
+    }
+}
