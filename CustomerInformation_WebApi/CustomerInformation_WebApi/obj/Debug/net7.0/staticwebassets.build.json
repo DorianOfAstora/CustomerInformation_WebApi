@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OtxcLDTAt7opoXeFaSk0qznVGntay2O4ryBCr2pw+tE=",
+  "Source": "CustomerInformation_WebApi",
+  "BasePath": "_content/CustomerInformation_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
