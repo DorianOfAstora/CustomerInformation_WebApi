@@ -1,0 +1,72 @@
+﻿@page "/searchpage"
+@using CustomerInformation_Web.Data
+@inject SearchServices service;
+
+<div style="top:10px">
+    @if (custResViewModel.Count == 0 || custResViewModel == null)
+    {
+
+    }
+    else if (custResViewModel.FirstOrDefault().error != null)
+    {
+        <div class="error">
+            <p class="blazor-error-boundary">
+                ATTENZIONE!
+                Si è verificato un Errore:
+            </p>
+            <div>
+                <p>
+                    @custResViewModel.FirstOrDefault().error.message
+                </p>
+                <p>
+                    @custResViewModel.FirstOrDefault().error.description
+                </p>
+            </div>
+
+        </div>
+    }
+    else
+    {
+        <div class="table">
+            <table class="table table-striped table-bordered">
+                <thead style="background-color:black;color:white">
+                    <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Customers</th>
+                        <th scope="col">Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in custResViewModel)
+                    {
+                        <tr>
+                            <td>@customer.item</td>
+                            <td>
+                                @customer.detail.FirstOrDefault().total
+                            </td>
+                            <td>
+                                @if (@customer.detail.Count > 0)
+                                {
+                                    <CustomerInformation_Web.Shared.Modal @ref="modal"></CustomerInformation_Web.Shared.Modal>
+                                    <button @onclick="() => modal.Open(customer.item, customer.detail)">Open Modal</button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+
+@code {
+    private List<CustomerDetailViewModel> custResViewModel = new List<CustomerDetailViewModel>();
+    private CustomerInformation_Web.Shared.Modal modal { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        custResViewModel = await service.Search();
+    }
+}
